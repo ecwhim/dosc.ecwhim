@@ -1,4 +1,6 @@
 theme:
   name: material
+  logo: assets/logo.svg
+  favicon: images/favicon.png
 
 site_name: Ecwhim
