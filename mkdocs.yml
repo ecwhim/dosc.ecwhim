@@ -1,6 +1,18 @@
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo.svg
   favicon: images/favicon.png
+  palette:
+    scheme: ecwhim
 
-site_name: Ecwhim
+extra_css:
+  - stylesheets/extra.css
+
+site_name: Extensions User Guide
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
