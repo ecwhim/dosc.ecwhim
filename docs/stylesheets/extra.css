@@ -1,0 +1,28 @@
+[data-md-color-scheme="ecwhim"] {
+    /* Primary color shades */
+    --md-primary-fg-color: #FFF;
+    --md-primary-bg-color: #000;
+    --md-primary-bg-color--light: rgba(0,0,0,.54);
+
+    /* Typeset `a` color shades */
+    --md-typeset-a-color: #900;
+
+    /* Accent color shades */
+    --md-accent-fg-color: #C00;
+
+    /* Footer color shades */
+    --md-footer-fg-color: #333;
+    --md-footer-fg-color--light: #000;
+    --md-footer-fg-color--lighter: #666;
+    --md-footer-bg-color: #EDF0F5;
+    --md-footer-bg-color--dark: #FFF;
+}
+
+@media screen and (min-width: 60em) {
+    [data-md-color-scheme="ecwhim"] .md-search__form:hover {
+        background-color: rgba(0,0,0,.32);
+    }
+    [data-md-color-scheme="ecwhim"] .md-search__form {
+        background-color: rgba(0,0,0,.07);
+    }
+}
